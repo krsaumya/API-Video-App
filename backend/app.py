@@ -159,6 +159,14 @@ def log_response(response):
 
 # ============== AUTHENTICATION ENDPOINTS ==============
 
+@app.route('/', methods=['GET'])
+def root():
+    return jsonify({
+        "message": "API-First Video App Backend is running 🚀",
+        "status": "success"
+    }), 200
+
+
 @app.route('/api/auth/signup', methods=['POST'])
 @limiter.limit("5 per minute")
 def signup():
