@@ -11,4 +11,4 @@ gunicorn==21.2.0
 redis==5.0.1
 yt-dlp==2023.12.30
 requests==2.31.0
-cryptography==41.0.8
+cryptography>=42.0.0
