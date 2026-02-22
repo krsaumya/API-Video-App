@@ -8,7 +8,7 @@ import type { AuthTokens, ApiError } from '../types';
 
 // API Configuration
 // Using standard localhost or the live URL
-const API_BASE_URL = 'https://api-video-app-sh6u.vercel.app/api';
+const API_BASE_URL = 'https://api-video-app-backend.vercel.app/api';
 
 // Storage keys
 const STORAGE_KEYS = {
